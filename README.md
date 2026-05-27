@@ -7,7 +7,7 @@ Este é um projeto de back-end web desenvolvido como parte do curso **Java Compl
 A aplicação consiste em um sistema de Web Services robusto construído com Spring Boot e persistência de dados utilizando JPA e Hibernate. O objetivo principal do projeto foi consolidar as boas práticas de desenvolvimento backend, o que inclui a implementação de um modelo de domínio, estruturação de camadas lógicas, povoamento automatizado de banco de dados e tratamento detalhado de exceções HTTP.
 
 ## Modelo Conceitual
-![Modelo Conceitual](https://github-production-user-asset-6210df.s3.amazonaws.com/13802711/594815518-2ee9fffd-cad5-418e-b906-86fbd61c9b8c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260519%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260519T150240Z&X-Amz-Expires=300&X-Amz-Signature=0297d69764df02d45519215419cacffd0d0b519d356fa5bc02d8f98382568185&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng)
+![Modelo Conceitual](https://github.com/RMFurlan/furshop/blob/main/assets/modelo_conceitual.png)
 
 ### Entidades do Sistema:
 * **User**: Cadastro de usuários/clientes do sistema.
@@ -19,7 +19,7 @@ A aplicação consiste em um sistema de Web Services robusto construído com Spr
 
 ## Arquitetura em Camadas Lógicas
 
-![Camadas Lógicas](https://github-production-user-asset-6210df.s3.amazonaws.com/13802711/596039413-87b85be2-45cb-4e78-b5a2-b22cd025e79e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T104627Z&X-Amz-Expires=300&X-Amz-Signature=05dc88d5d28f7d542233cda0c773b628b852616f6fffb3ba353e22aa0608922e&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng)
+![Camadas Lógicas](https://github.com/RMFurlan/furshop/blob/main/assets/camadas_logicas.png)
 
 * **Resource Layer**: Controladores REST que expõem os endpoints da API.
 * **Service Layer**: Onde residem as regras de negócio e orquestração do sistema.
